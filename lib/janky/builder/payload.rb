@@ -40,7 +40,7 @@ module Janky
       end
 
       def completed?
-        @phase == "FINISHED" || @phase == "FINALIZED"
+        @phase == "FINISHED" || @phase == "FINALIZED" || @phase == "COMPLETED"
       end
 
       def green?
